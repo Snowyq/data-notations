@@ -1,0 +1,35 @@
+h2 {
+	margin: 50px;
+	text-align: center;
+}
+
+* {
+	font-family: sans-serif;
+}
+
+table {
+	padding: 10px;
+	background-color: gainsboro;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 10px 10px;
+	font-size: 20px;
+}
+
+td {
+	padding: 10px;
+}
+
+thead {
+	background-color: gray;
+}
+
+tr:nth-child(even) {
+	background-color: gray;
+}

@@ -1,0 +1,31 @@
+div {
+	margin-bottom: 30px;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+	padding: 50px;
+	margin: 0 auto;
+	width: 80%;
+}
+
+input,
+select,
+textarea {
+	border-radius: 5px;
+	border: 2px solid gray;
+	width: 100%;
+}
+
+[type='submit'] {
+	font-size: 20px;
+	background-color: green;
+	padding: 0.5em 1em;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+	color: white;
+}
